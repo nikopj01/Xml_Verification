@@ -6,7 +6,7 @@ public class main {
         // String xml = "<People><Design><Code>hello world</People></Code></Design>";
         // String xml = "<People age=”1”>hello world</People>";
         String xml = "<Design><Code></Code><Code></Code></Design>";
-        System.out.println(xml);
+        System.out.println("XML String: " + xml);
         System.out.println("Result: " + String.valueOf(DetermineXml(xml)));
     }
 
